@@ -1,6 +1,5 @@
 # 🛠️ AI Code Reviewer & Bug Fixing Agent
-
-A 1-week Build Sprint MVP for a Generative AI Developer Intern application.
+creating a AI that detect the bug in the code and fix it
 
 ## What it does
 
