@@ -160,4 +160,4 @@ if review:
             )
 
 st.divider()
-st.markdown("**MVP flow:** Code → heuristic safety checks → LLM reasoning → bug explanation → corrected code → tests.")
+st.markdown("**MVP flow:** Put groq API key → heuristic safety checks → LLM reasoning → bug explanation → corrected code → tests.")
