@@ -21,7 +21,7 @@ For every proposed fix, explain the reasoning briefly.
 If the code is already correct, say so and focus on improvements.
 Keep the answer concise enough to be useful to a developer."""
 
-# put api key in environment variable GROQ_API_KEY or enter it in the sidebar.
+# put api key in GROQ_API_KEY or enter it in the sidebar.
 
 def get_client():
     key = os.getenv("GROQ_API_KEY") or st.session_state.get("api_key")
