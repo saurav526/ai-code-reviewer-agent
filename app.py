@@ -5,7 +5,7 @@ from groq import Groq
 
 st.set_page_config(page_title="AI Code Reviewer", page_icon="🛠️", layout="wide")
 
-LANGUAGES = ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL"]
+LANGUAGES = ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL", "Go", "Rust", "C#", "Ruby", "PHP", "Swift", "Kotlin","R","HTML"]
 
 SYSTEM_PROMPT = """You are a senior software engineer and code-review agent.
 Analyze the user's code carefully. Do not invent errors that are not supported by the code.
